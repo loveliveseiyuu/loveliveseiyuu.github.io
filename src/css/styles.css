@@ -12,13 +12,13 @@ body {
 
 .progress {
   margin: 1em auto;
-  width: 500px;
+  width: 600px;
   display: none;
 }
 
 .progressbar {
   position: relative;
-  width: 492px;
+  width: 100%;
   border: 1px solid black;
   padding: 3px;
   margin: 2px 0px;
@@ -26,7 +26,7 @@ body {
 
 .progresstext {
   position: absolute;
-  width: 492px;
+  width: 100%;
   margin: 3px 0px;
   text-align: center;
   font-size: 0.7em;
@@ -41,9 +41,9 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 200px 1fr 200px;
   grid-gap: 5px;
-  width: 420px;
+  width: 600px;
 }
 
 .button {
@@ -111,15 +111,15 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
+  width: 200px;
+  height: 240px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
 .sorter > .text {
-  width: 120px;
+  width: 200px;
   height: 60px;
   display: none;
 }
